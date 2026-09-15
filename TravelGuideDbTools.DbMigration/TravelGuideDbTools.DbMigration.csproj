@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--მიგრაციის კოდს EF ავტომატურად აგენერირებს და ანალიზატორის წესებს ვერ დავუქვემდებარებთ-->
+    <NoWarn>$(NoWarn);CA1861;IDE0161</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TravelGuideDbPart\TravelGuideDbPart.Db\TravelGuideDbPart.Db.csproj" />
+  </ItemGroup>
+
+</Project>

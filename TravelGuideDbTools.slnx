@@ -1,0 +1,21 @@
+<Solution>
+    <Folder Name="/Solution Items/">
+        <File Path=".editorconfig" />
+        <File Path="Directory.Build.props" />
+        <File Path="Directory.Packages.props" />
+    </Folder>
+    <Folder Name="/SystemTools/">
+        <Project Path="../SystemTools/SystemTools.DatabaseToolsShared/SystemTools.DatabaseToolsShared.csproj" />
+        <Project Path="../SystemTools/SystemTools.SharedKernel/SystemTools.SharedKernel.csproj" />
+        <Project Path="../SystemTools/SystemTools.SystemToolsShared/SystemTools.SystemToolsShared.csproj" />
+    </Folder>
+    <Folder Name="/TravelGuideCore/">
+        <Project Path="../TravelGuideCore/TravelGuideCore.Application.Abstractions/TravelGuideCore.Application.Abstractions.csproj" />
+        <Project Path="../TravelGuideCore/TravelGuideCore.Domain/TravelGuideCore.Domain.csproj" />
+    </Folder>
+    <Folder Name="/TravelGuideDbPart/">
+        <Project Path="../TravelGuideDbPart/TravelGuideDbPart.Db/TravelGuideDbPart.Db.csproj" />
+    </Folder>
+    <Project Path="TravelGuideDbTools.DbMigration/TravelGuideDbTools.DbMigration.csproj" />
+    <Project Path="TravelGuideDbTools.FakeHost/TravelGuideDbTools.FakeHost.csproj" />
+</Solution>
