@@ -201,8 +201,8 @@ namespace TravelGuideDbTools.DbMigration.Migrations
                 {
                     PlaceId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Url = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
-                    UrlHashCode = table.Column<int>(type: "int", nullable: false),
+                    Url = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    UrlHashCode = table.Column<int>(type: "int", nullable: true),
                     Name = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     RegionId = table.Column<int>(type: "int", nullable: true),
                     MunicipalityId = table.Column<int>(type: "int", nullable: true),
