@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TravelGuideDbPart.Db;
 
@@ -11,9 +12,11 @@ using TravelGuideDbPart.Db;
 namespace TravelGuideDbTools.DbMigration.Migrations
 {
     [DbContext(typeof(TravelGuideDbContext))]
-    partial class TravelGuideDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260916064238_UrlsTable")]
+    partial class UrlsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
