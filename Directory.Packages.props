@@ -8,6 +8,6 @@
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.14" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.14" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
-    <PackageVersion Include="TravelGuideDbPart.Db" Version="0.0.9791.21065" />
+    <PackageVersion Include="TravelGuideDbPart.Db" Version="0.0.9808.33486" />
   </ItemGroup>
 </Project>
