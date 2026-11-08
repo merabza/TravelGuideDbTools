@@ -8,7 +8,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
-    <PackageReference Include="TravelGuideDbPart.Db" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TravelGuideDbPart\TravelGuideDbPart.Db\TravelGuideDbPart.Db.csproj" />
   </ItemGroup>
 
 </Project>
